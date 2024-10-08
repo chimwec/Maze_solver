@@ -24,7 +24,7 @@ class Window:
         print("Window is closed")
 
 
-    def draw_line(self, Line, fill_color="black"):
+    def draw_line(self, Line, fill_color="blue"): # changed from black
         Line.draw(self.__canvas, fill_color)
 
     
